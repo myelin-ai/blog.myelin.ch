@@ -10,7 +10,7 @@ It enabled me to set custom directory replacements like this:
 ![01](/assets/named-directory-hash-table/01.png)
 
 This worked nicely, but I was curious about how it worked.  
-Since is a zsh built-in function, the docs can be accessed with “man zshbuiltins”.
+Since is a zsh built-in function, the docs can be accessed with `man zshbuiltins`.
 
 > hash can be used to directly modify the contents of the command hash table, and the named directory hash table. Normally one would modify these tables by modifying one’s PATH (for the command hash table) or by creating appropriate shell parameters (for the named directory hash table). The choice of hash table to work on is determined by the -d option; without the option the command hash table is used, and with the option the named directory hash table is used.
 

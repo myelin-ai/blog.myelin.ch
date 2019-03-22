@@ -4,9 +4,7 @@ title:  "Script collection - Part 1"
 author: Jeremy
 ---
 
-# Script collection - Part 1
-
-## Clone script
+# Clone script
 Clone git repositories and automatically set custom configs, such as commit author or gpg settings.
 
 `.zshrc`
@@ -39,7 +37,7 @@ clone() {
 ```
 
 
-## LaTeX spell check
+# LaTeX spell check
 Spellcheck your documents using a  default language and a custom dictionary.
 
 To spellcheck a whole directory you can use `find` and `xargs` like this:  
@@ -60,9 +58,10 @@ fi
 ```
 
 
-## Extract a directory from a git repository
+# Extract a directory from a git repository
 1. `git filter-branch --prune-empty --subdirectory-filter <directory> master`
-2. (Optional) Set yourself as the commiter and re-commit everything using the script below. (If you require signed commits)
+2. (Optional) Set yourself as the commiter and re-commit everything using the script below. (If you require signed commits). Then run:  
+`git filter-branch -f --commit-filter 'git commit-tree -S "$@";' -- --all`
 3. `git remote set-url origin <new repository>`
 4. `git push`
 
@@ -82,14 +81,14 @@ fi
 ```
 
 
-## Other random stuff
+# Other random stuff
 
-### macOS - Cleanup brew cache
+## macOS - Cleanup brew cache
 If you just installed or updated a lot of stuff, you should consider running `brew cleanup`.  
 It also run automatically every 30 days.
 
 
-### Rename a lot of files quickly
+## Rename a lot of files quickly
 With `zmv` you can quickly rename all the files in a directory.
 
 Example script: `zmv '(*)S(??)E(??)(*).(???)' 'Season $2 - Episode $3.$4'`

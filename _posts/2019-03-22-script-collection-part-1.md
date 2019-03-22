@@ -85,7 +85,7 @@ fi
 
 ## macOS - Cleanup brew cache
 If you just installed or updated a lot of stuff, you should consider running `brew cleanup`.  
-It also run automatically every 30 days.
+It also runs automatically every 30 days.
 
 
 ## Rename a lot of files quickly

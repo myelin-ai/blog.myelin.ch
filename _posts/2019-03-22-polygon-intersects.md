@@ -14,5 +14,8 @@ The key concept at the heart of the theorem can be simplified as follows:
 
 > If you can draw a line between two shapes, they are not touching each other.
 
-Sounds easy enough, right?
+Sounds easy, right? 
 
+When working with convex shapes, this line can be straight.
+
+![01](/assets/polygon-intersects/non-intersecting.svg)

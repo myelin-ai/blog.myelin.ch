@@ -8,10 +8,10 @@ author: Jeremy, Ruben, Jan
  > ⚠️ Requires the nightly compiler
 
 ## Table of Contents
-[The basics](#the-basics)  
-[Expecting a method call a certain amount of times](#expecting-a-method-call-a-certain-amount-of-times)  
-[Specifiying return values](#specifying-return-values)  
-[Limitations](#limitations)
+- [The basics](#the-basics)  
+- [Expecting a method call a certain amount of times](#expecting-a-method-call-a-certain-amount-of-times)
+- [Specifiying return values](#specifying-return-values)
+- [Limitations](#limitations)
 
 ## The basics
 Annotating a trait `Greeter` with `#[mockable]` generates a struct `GreeterMock` that implements `Greeter`

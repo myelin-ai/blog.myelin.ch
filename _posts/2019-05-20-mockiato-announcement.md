@@ -119,7 +119,7 @@ mod tests {
 ```
 
 ### Specifying different return values for the same call
-For each method in the `Greeter` trait a corresponding `expect_<method_name>_calls_in_order` method is generated.
+For each method of the `Greeter` trait a corresponding `expect_<method_name>_calls_in_order` method is generated.
 
 Ordered expectations can be used together with [`times`](#expecting-a-method-call-a-certain-amount-of-times).
 

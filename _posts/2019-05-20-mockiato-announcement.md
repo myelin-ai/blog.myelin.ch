@@ -7,7 +7,7 @@ author: Jeremy, Ruben & Jan
 ## Disclaimer
  > ⚠️ Requires the nightly compiler
 
-## Navigation
+## Table of Contents
 [The basics](#the-basics)  
 [Expecting a method call a certain amount of times](#expecting-a-method-call-a-certain-amount-of-times)  
 [Specifiying return values](#specifying-return-values)  

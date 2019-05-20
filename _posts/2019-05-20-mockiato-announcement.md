@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Announcing Mockiato - A strict, yet friendly mocking library for Rust 2018"
-author: Jeremy, Ruben & Jan
+author: Jeremy, Ruben, Jan
 ---
 
 ## Disclaimer

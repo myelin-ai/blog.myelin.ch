@@ -88,7 +88,7 @@ mod tests {
 ```
 
 ## Specifying return values
-The `MethodCallBuilder` also contains a `returns` method.
+The `MethodCallBuilder` also provides a `returns` method.
 
 This `returns` method allow you to specify a return value, which is returned when the corresponding mock method is invoked.
 

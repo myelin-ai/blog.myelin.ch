@@ -13,7 +13,7 @@ author: Jeremy, Ruben, Jan
 - [Specifiying return values](#specifying-return-values)
 - [Limitations](#limitations)
 
-## The basics
+## The Basics
 Annotating a trait `Greeter` with `#[mockable]` generates a struct `GreeterMock` that implements `Greeter`
 and provides an `expect_<method_name>` method for every method in the trait.
 

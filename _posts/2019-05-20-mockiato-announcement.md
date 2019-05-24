@@ -4,7 +4,7 @@ title:  "Announcing Mockiato - A strict, yet friendly mocking library for Rust 2
 author: Jeremy, Ruben, Jan, Mathias
 ---
 
-> ?~Z| ?~O Requires the nightly compiler
+> ⚠️ Requires the nightly compiler
 
 We're proud to announce [mockiato](https://github.com/myelin-ai/mockiato)! For the last few months, we tackled the issue of creating a usable mocking library.
 Our primary goals were

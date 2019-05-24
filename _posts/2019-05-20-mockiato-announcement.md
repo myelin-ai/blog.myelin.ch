@@ -1,11 +1,20 @@
 ---
 layout: post
 title:  "Announcing Mockiato - A strict, yet friendly mocking library for Rust 2018"
-author: Jeremy, Ruben, Jan
+author: Jeremy, Ruben, Jan, Mathias
 ---
 
-## Disclaimer
- > ⚠️ Requires the nightly compiler
+> ⚠️ Requires the nightly compiler
+
+We're proud to announce [mockiato](https://github.com/myelin-ai/mockiato)! For the last few months, we tackled the issue of creating a usable mocking library.
+Our primary goals were
+- Ease of use: The mocks are written in idiomatic Rust and don't rely on custom macro syntax.
+- Maintainability: The entire code base strives to follow the rules of Clean Code and Clean Architecture as specified by Robert C. Martin.
+- Strict expectation enforcement: Mockiato catches unexpected behavior as soon as it happens instead of returning default values.
+
+Relying on mocks instead of implementations allows you to test components in isolation of their dependencies, providing real unit testing capabilities.
+
+Mockiato enjoys a broad test suite, composed of many unit tests and [integration](https://github.com/myelin-ai/mockiato/tree/master/tests) [tests](https://github.com/myelin-ai/mockiato/tree/master/crates/mockiato-compiletest/tests/ui).
 
 ## Table of Contents
 - [The basics](#the-basics)  

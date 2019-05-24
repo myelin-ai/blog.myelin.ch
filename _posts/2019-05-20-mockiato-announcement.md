@@ -166,15 +166,10 @@ mod tests {
 ```
 
 ## Limitations
-### `Sync` / `Send`
-Mocks are neither sync, nor send. The tracking issue for this limitation is [#106](https://github.com/myelin-ai/mockiato/issues/106).
 
-### Lifetimes on traits
-Lifetimes are supported in the method signature, but not on the trait itself. The tracking issue for this limitation is [#117](https://github.com/myelin-ai/mockiato/issues/117).
-
-### References to generics
-References to types containing a generic type are currently not supported due to a limitation in codegen involving lifetimes. The tracking issue for this limitation is [#123](https://github.com/myelin-ai/mockiato/issues/123).
-
-### Stable support
-Mockiato requires nightly because we use the unstable `proc_macro_diagnostics` API to print helpful messages.
-Printing expected calls requires the unstable feature `specialization`.
+| Name | Description | Tracking Issue |
+| ---- | ----------- | -------------- |
+| `Sync` / `Send` | Mocks are neither sync, nor send. | [#106](https://github.com/myelin-ai/mockiato/issues/106) |
+| Lifetimes on traits | Lifetimes are supported in the method signature, but not on the trait itself. | [#117](https://github.com/myelin-ai/mockiato/issues/117) |
+| Reference to generics | References to types containing a generic type are currently not supported due to a limitation in codegen involving lifetimes. | [#123](https://github.com/myelin-ai/mockiato/issues/123) |
+| Stable support | Mockiato requires nightly because we use the unstable `proc_macro_diagnostics` API to print helpful messages. Printing expected calls requires the unstable feature `specialization`. | — |

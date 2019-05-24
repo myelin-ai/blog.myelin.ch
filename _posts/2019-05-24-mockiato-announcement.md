@@ -66,7 +66,7 @@ The `times` method accepts a usize value or a range. Here is the full list of su
 | Any amount of times   | `RangeFull`        | `..`    |
 | At least              | `RangeFrom`        | `3..`   |
 | At most (exclusive)   | `RangeTo`          | `..3`   |
-| At most (inclusive)   | `RangeToInclusive` | `..3`   |
+| At most (inclusive)   | `RangeToInclusive` | `..=3`  |
 | Between (exclusive)   | `Range`            | `3..4`  |
 | Between (inclusive)   | `RangeInclusive`   | `3..=4` |
 

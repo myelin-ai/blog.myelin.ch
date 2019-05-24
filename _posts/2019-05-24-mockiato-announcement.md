@@ -173,3 +173,7 @@ mod tests {
 | Lifetimes on traits | Lifetimes are supported in the method signature, but not on the trait itself. | [#117](https://github.com/myelin-ai/mockiato/issues/117) |
 | Reference to generics | References to types containing a generic type are currently not supported due to a limitation in codegen involving lifetimes. | [#123](https://github.com/myelin-ai/mockiato/issues/123) |
 | Stable support | Mockiato requires nightly because we use the unstable `proc_macro_diagnostics` API to print helpful messages. Printing expected calls requires the unstable feature `specialization`. | [#161](https://github.com/myelin-ai/mockiato/issues/161) |
+
+## Discussion
+
+If you'd like to discuss or comment on this post, head over to [reddit](https://redd.it/bshn0f)!

@@ -12,9 +12,9 @@ Our primary goals were
 - Maintainability: The entire code base strives to follow the rules of Clean Code and Clean Architecture as specified by Robert C. Martin.
 - Strict expectation enforcement: Mockiato catches unexpected behavior as soon as it happens instead of returning default values.
 
-Mockiato enjoys a broad test suite, composed of many unit tests and [integration](https://github.com/myelin-ai/mockiato/tree/master/tests) [tests](https://github.com/myelin-ai/mockiato/tree/master/crates/mockiato-compiletest/tests/ui).
-
 Relying on mocks instead of implementations allows you to test components in isolation of their dependencies, providing real unit testing capabilities.
+
+Mockiato enjoys a broad test suite, composed of many unit tests and [integration](https://github.com/myelin-ai/mockiato/tree/master/tests) [tests](https://github.com/myelin-ai/mockiato/tree/master/crates/mockiato-compiletest/tests/ui).
 
 ## Table of Contents
 - [The basics](#the-basics)  

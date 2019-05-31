@@ -4,7 +4,15 @@ title:  "Announcing Mockiato - A strict, yet friendly mocking library for Rust 2
 author: Jeremy, Ruben, Jan, Mathias
 ---
 
-> ⚠️ Requires the nightly compiler
+**Update:** Mockiato now works with stable rust.
+
+> ## ⚠️ Disclaimer for working with stable rust
+>
+> Mockiato relies on the unstable `proc_macro_diagnostics` API to print helpful messages
+and the unstable `specialization` feature to be able to print expected calls.
+>
+> Mocks work as expected on stable rust, but diagnostics are very limited.  
+We recommend re-running failing tests using nighly rust in order to pin-point the issue.
 
 We're proud to announce [mockiato](https://github.com/myelin-ai/mockiato)! For the last few months, we tackled the issue of creating a usable mocking library.
 Our primary goals were
